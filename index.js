@@ -17,6 +17,6 @@ function dec( n ) {
   return ( n = n - 1 );
 }
 function makeInt( n ) {
-  parseFloat( n );
+  parseInt( n, 10 );
   return n;
 }
